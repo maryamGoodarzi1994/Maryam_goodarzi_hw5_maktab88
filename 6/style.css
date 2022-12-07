@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  --container-width: 1000px;
+  --container-height: 400px;
+}
+.dark-blue {
+  background-color: #37495f;
+}
+.green {
+  background-color: #65c271;
+}
+.pink {
+  background-color: #da604b;
+}
+.orange {
+  background-color: #c76026;
+}
+.purple {
+  background-color: #9166b5;
+}
+.main-container {
+  width: var(--container-width);
+  height: var(--container-height);
+}
+.main-container--title {
+  position: absolute;
+  border: 1px solid #8293a5;
+  font-weight: bolder;
+  color: #eff8ff;
+  font-size: larger;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+  left: 50%;
+  margin-left: -350px;
+  top: 50%;
+  margin-top: -200px;
+}
+.bookmark-container {
+  top: 50%;
+  margin-top: -200px;
+  right: 0;
+  margin-right: 450px;
+  position: fixed;
+}
+.colorful-circles {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  margin: 5px;
+  border: 1px solid white;
+  top: 50%;
+}
+.colorful-container {
+  width: var(--container-width);
+  height: var(--container-height);
+}
+.left-div {
+  float: left;
+  position: relative;
+  width: 500px;
+}
+.left-div--box {
+  position: absolute;
+  width: 300px;
+  text-align: center;
+  left: 100px;
+  top:150px;
+}
+.left-div--title {
+    border: 1px solid #8293a5;
+    font-weight: bolder;
+    color: #eff8ff;
+    font-size: larger;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+}
+.left-div--text {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #eff8ff;
+}
+.right-div {
+  float: right;
+  width: 500px;
+  position: relative;
+}
+.img {
+  display: block;
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  right: 200px;
+  top: 100px;
+}

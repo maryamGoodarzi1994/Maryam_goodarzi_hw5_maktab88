@@ -1,0 +1,20 @@
+
+tail -f /logs/selfcare/webaxn/webaxncs.log
+ tailf webaxntest2/logs/webaxn/webaxncs.log 
+/webaxntest2/logs/selfcaregw$ cat selfcaregw.log.2019-10-15-12 | grep 9352034208 | grep addRemoveIndividualDND
+
+/logs/selfcare/selfcaregw
+
+/logs/selfcare/selfcaregw
+
+ cat cdrs/selfcare/selfcaregw/selfcaregw.cdr | grep 9352003886
+
+:~/webaxntest2/cdrs/webaxn$ ls
+https://javascript.info/variables
+
+tailf webaxntest2/logs/webaxn/webaxncs.log for otp
+ sudo pm2 start ecosystem_local.json --env production
+sudo pm2 log id
+
+
+

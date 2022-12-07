@@ -1,79 +1,79 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
-    padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  padding: 0;
 }
 :root {
-    --blue :#2f78b8;
-
+  --blue: #2f78b8;
 }
-.container-div{
-    width: 50vw;
-    margin: auto;
-    background-color: #ffffff;
+.container-div {
+  width: 50vw;
+  margin: auto;
+  background-color: #ffffff;
 }
 .header {
-border: 1px solid #eeeeee;
-position: relative;
-padding:20px ;
-
+  border: 1px solid #eeeeee;
+  position: relative;
+  padding: 20px;
 }
 .title {
-position: absolute;
-color: #6e6e63;
-left: 0;
-top: 0;
-
+  position: absolute;
+  color: #6e6e63;
+  left: 0;
+  top: 0;
 }
-.button-container{
-    position: absolute;
-    right: 0;
-    top: 0;
+.button-container {
+  position: absolute;
+  right: 0;
+  top: 0;
 }
-.active-button{
-background-color: var(--blue);
-color: white;
-font-weight: bolder;
-border: 1px solid var(--blue);
-border-radius: 5px;
-padding: 8px;
-
+.active-button {
+  background-color: var(--blue);
+  color: white;
+  font-weight: bolder;
+  border: 1px solid var(--blue);
+  border-radius: 5px;
+  padding: 8px;
 }
 .deactive-button {
-color: var(--blue);
-border-radius: 5px;
-padding: 8px;
-font-weight: bolder;
-border: 1px solid white;
+  color: var(--blue);
+  border-radius: 5px;
+  padding: 8px;
+  font-weight: bolder;
+  border: 1px solid white;
 }
-.middle-div{
-    background-color: #eeeeee;
-    padding: 3rem;
-    margin-top:1rem ;
-
+.middle-div {
+  background-color: #eeeeee;
+  padding: 3rem;
+  margin-top: 1rem;
 }
 .middle-div--title {
-    text-align: center;
-    font-weight: 900;
-    color: #323232;
+  text-align: center;
+  font-weight: 900;
+  color: #323232;
 }
-.middle-div--text{
-    text-align: center;
-    color: #87888a;
+.middle-div--text {
+  text-align: center;
+  color: #87888a;
 }
 .middle-div--button {
-    display: block;
-    margin: auto;
-    background-color:#5ab959 ;
-    color: white;
-    font-weight: bold;
-    border-radius: 5px;
-    border: 0;
-    padding: 10px;
+  display: block;
+  margin: auto;
+  background-color: #5ab959;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 0;
+  padding: 10px;
 }
-.bottom-sub-div{
-    width: 50%;
-    float: left;
-    padding: 1rem;
-    color: #6a6b6d;
+.bottom-sub-div {
+  width: 50%;
+  float: left;
+  padding: 1rem;
+  color: #6a6b6d;
+}
+.footer {
+border: 1px solid #eeeeee;
+padding: 20px;
+color: #a5a5a5; 
 }
